@@ -47,3 +47,27 @@ nav a{
     color: #474747;
 }
 /* Navigation Bar Complete*/
+/* header section start*/
+header{
+    width: 1500px;
+    height: 737px;
+    flex-shrink: 0;
+    background: #FFF8F3;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-content{
+    
+}
+.header-image{
+    height: 620px;
+    width: 500x;
+    padding-right: 250px;
+}
+.mark-image{
+    height: 620px;
+    width: 500px;
+}
