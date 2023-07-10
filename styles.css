@@ -49,25 +49,56 @@ nav a{
 /* Navigation Bar Complete*/
 /* header section start*/
 header{
-    width: 1500px;
-    height: 737px;
-    flex-shrink: 0;
+    width: 1600px;
+    height: 837px;
     background: #FFF8F3;
+    background-image: url('./images/header_bg.png'),url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+     
+     
 }
 .header-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 30px 30px 0px 15px;
 }
 .header-content{
+    align-items: center;
+    justify-content: space-around;
+    max-width: 500px;
+    margin-left: 100px;
     
 }
 .header-image{
-    height: 620px;
-    width: 500x;
-    padding-right: 250px;
-}
-.mark-image{
-    height: 620px;
     width: 500px;
+     
+     
+}
+.h-section-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    padding-top: 0px;
+     margin-top: 0px;
+    margin-bottom: 0px;
+}
+.h-section-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    
+     display: flex;
+     justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sub-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+     
 }
