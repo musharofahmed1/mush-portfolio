@@ -50,7 +50,7 @@ nav a{
 /* header section start*/
 header{
     width: 1600px;
-    height: 837px;
+    height: 817px;
     background: #FFF8F3;
     background-image: url('./images/header_bg.png'),url('./images/developer.png');
     background-repeat: no-repeat;
@@ -76,6 +76,10 @@ header{
      
      
 }
+.mush-img{
+    height: 676px;
+    width: 584px;
+ }
 .h-section-title{
     color: #181818;
     font-size: 85px;
